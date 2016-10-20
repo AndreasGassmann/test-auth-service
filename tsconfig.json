@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node",
+    "removeComments": false,
+    "noImplicitAny": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "./lib",
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
+    "types" : [
+      "jssha"
+    ]
+  },
+  "files": [
+    "index.ts",
+    "node_modules/@types/core-js/index.d.ts"
+  ]
+}
